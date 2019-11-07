@@ -24,9 +24,5 @@ script:
   - python 1.py
 
 deploy:
-  provider: heroku
-  api_key:
-    secure: $HEROKU_API_KEY
-  app: test-my-travisci-project
   on:
     repo: moonsword5083/test
