@@ -22,7 +22,3 @@ script: true
  # Another command/method to run tests
 script: 
   - python 1.py
-
-deploy:
-  on:
-    repo: moonsword5083/test
